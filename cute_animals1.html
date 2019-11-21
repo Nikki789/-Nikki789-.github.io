@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="cute_animals1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+  <script>
+    function openSlideMenu() {
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu() {
+      document.getElementById('side-menu').style.width = '0px';
+      document.getElementById('main').style.marginLeft = '0px';
+    }
+  </script>
+  <title>Cute animals</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+          </svg>
+        </a>
+      </span>
+
+      <ul id="navbar-nav">
+        <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home page</a></li>
+        <li><a href="webf1.html"><i class="fa fa-fw fa-pencil-alt"></i>Discovery Log</a></li>
+        <li><a href="literature_review.html"><i class="fa fa-fw fa-file-alt"></i>Literature review</a></li>
+        <li><a href="cute_animals.html"><i class="fa fa-fw fa-paw"></i>Cute animals</a></li>
+
+      </ul>
+
+    </nav>
+  </header>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="close" onclick="closeSlideMenu()">&times;</a>
+    <h2><a href="#Content">Content</a></h2>
+    <h3><a href="#Cats">Cats</a></h3>
+    <h3><a href="#Dogs">Dogs</a></h3>
+    <h3><a href="#Horses">Horses</a></h3>
+  </div>
+
+  <div id="move">
+    <article>
+      <h2>Cute animals</h2>
+      <h4>You can see the names of the domestic animals when you move the mouse cursor over the image.</h4>
+
+      <section>
+        <h2 class="centre"><a id="Cats">Cats</a></h2>
+        <h4>These are my pets:</h4>
+        <picture class="container">
+          <img alt="Mila the cat" class="responsive" src="Mila.jpg" title="This cat's name is Mila">
+        </picture>
+        <h4>This cat's name is Naughty:</h4>
+        <picture>
+          <img alt="Naughty the cat" title="Picture of Naughty" class="responsive"  src="naughty_cat1.jpg">
+        </picture>
+        <picture>
+          <img alt="A picture of Naughty again" title="Naughty again" class="responsive" src="naughty_cat.jpg">
+        </picture>
+
+
+        <h4>Some cats in my hometown:</h4>
+        <video height="500" width="400" controls>
+          <source src="cats_video.mp4" type="video/mp4">
+          <source src="cats_video.ogg" type="video/ogg">
+          <source src="cats_video.webm" type="video/webm">
+        </video>
+      </section>
+
+
+      <section>
+        <h2><a id="Dogs">Dogs</a></h2>
+        <h4>This dog is my pet:</h4>
+        <picture>
+          <img alt="Matsa the dog" title="It's name is Matsa" height="500" width="300"  src="Matsa.jpg">
+        </picture>
+
+        <h4 class="align-text">This dog is my friend's,photos are from 2014,when it was a baby:</h4>
+        <picture>
+          <img alt="Koko the dog" title="It's name is Koko" class="responsive" src="koko1.jpg">
+        </picture>
+        <picture>
+          <img alt="Koko is going to sleep" title="Koko is going to sleep" class="responsive" src="koko.jpg">
+        </picture>
+        <picture>
+          <img alt="Koko wants to go to the kitchen" title="Koko wants to go to the kitchen" class="responsive" src="koko2.jpg">
+        </picture>
+
+        <h4>This is how it looks like now:</h4>
+        <picture>
+          <img alt="Koko is grown-up" title="Koko is grown-up" height="500" src="koko4.jpg">
+        </picture>
+        <picture>
+          <img alt="Koko is sleeping near the door so he can guard it's owner " title="Koko is sleeping near the door so he can guard it's owner " height="500" src="koko5.jpg">
+        </picture>
+        <picture>
+          <img alt="Koko checking if his owner is going to the kitchen" title="Koko checking if his owner is going to the kitchen" height="500" src="koko6.jpg">
+        </picture>
+
+        <h4>This dog lives in front of my friend's block:</h4>
+        <video height="500" width="400" controls>
+          <source src="Beta.mp4" type="video/mp4">
+          <source src="Beta.ogg" type="video/ogg">
+          <source src="Beta.webm" type="video/webm">
+        </video>
+      </section>
+
+
+      <section>
+        <h2><a id="Horses">Horses</a></h2>
+        <h4 id="align-text">Some horses around Portsmouth,the photo is taken from a bus:</h4>
+        <picture>
+          <img alt="Two horses" class="responsive" src="Two_horses.jpg">
+        </picture>
+        <picture>
+          <img alt="Three horses" class="responsive" src="Three_horses.jpg">
+        </picture>
+      </section>
+    </article>
+
+  <footer>
+    <a class="ex1" href="#top">Go to the top</a>
+    <a class="ex3">or</a>
+    <a class="ex1" href="http://validator.w3.org/check?uri=referer">validate the website</a>
+  </footer>
+
+</body>
+
+</html>
